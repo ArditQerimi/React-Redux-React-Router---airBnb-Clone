@@ -1,0 +1,83 @@
+.titlecontainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.titlecontainer > * {
+  margin: 0 7px;
+}
+
+.title {
+  color: inherit;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.titleIcon {
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+}
+
+.details1 {
+  justify-content: center;
+}
+
+.details1,
+.details2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 4px;
+}
+
+.details1left > * {
+  margin: 10px 1.5px;
+}
+
+.details1right > * {
+  margin: 10px 10px;
+}
+
+.details1left,
+.details1right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.details1icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+.rating {
+  font-weight: 600;
+}
+
+.reviews,
+.city,
+.sharetext,
+.savetext {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.superhost {
+  font-weight: 400;
+}
+
+.share,
+.save {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.share > *,
+.save > * {
+  margin: 0 3px;
+}

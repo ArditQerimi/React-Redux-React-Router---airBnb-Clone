@@ -1,0 +1,48 @@
+.container {
+  margin: 4% 0%;
+  display: flex;
+}
+
+.containers {
+  display: flex;
+  width: 60%;
+  /* justify-content: space-between; */
+  border-bottom: 1px solid #dddddd;
+}
+
+.hostdescription {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* width: 57%; */
+  /* width: 100%; */
+}
+
+.hostedbycontainer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  /* width: 80%; */
+}
+.hostedbycontainer > * {
+  margin: 10px 2px;
+}
+.hostedbytitle {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.rooms {
+  display: flex;
+}
+
+.rooms > * {
+  margin: 0px 2px;
+  font-size: 16.5px;
+}
+
+.hostimage {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}

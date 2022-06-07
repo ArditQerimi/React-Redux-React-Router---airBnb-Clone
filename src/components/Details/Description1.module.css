@@ -1,0 +1,255 @@
+.container {
+  display: flex;
+  margin-top: 2.5rem;
+}
+
+.leftcontainer {
+  width: 57%;
+  /* border-bottom: 1px solid #dddddd; */
+  /* margin-bottom: 10px 0px; */
+  padding: 1.2rem 0px;
+}
+
+.rightcontainer {
+  width: 43%;
+}
+
+.hostcontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hostedbytitle {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.hostdescription {
+  display: flex;
+}
+
+.hostdescription > * {
+  margin: 8px 2px;
+  font-size: 16.5px;
+}
+
+.hostimage {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+.divider {
+  height: 1px;
+  background-color: #dddddd;
+  margin: 3% 0%;
+}
+
+.descriptioncontainer {
+  display: flex;
+  align-items: center;
+}
+
+.descriptioncontainer > * {
+  margin: 1% 1.5%;
+}
+
+.descriptiontitle {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+
+.descriptionIcon {
+  width: 35px;
+  height: 35px;
+}
+
+.titleofdescription {
+  font-weight: 600;
+}
+
+.titleanddescription > * {
+  margin: 2.5% 0%;
+}
+
+.description {
+  font-weight: 400;
+  color: #717171;
+  font-size: 14px;
+}
+
+/* ///////////////////// AIR COVER //////////////////////// */
+
+/* .aircovercontainer {
+  margin: 5% 0%;
+  padding: 5% 0%;
+} */
+
+/* .aircovercontainer > * {
+  margin: 3% 0;
+} */
+
+.aircoverimage {
+  width: 130px;
+  height: 55px;
+  object-fit: contain;
+}
+
+/* .aircover {
+  margin-bottom: 5%;
+} */
+
+.aircover > * {
+  margin: 1.5% 0;
+}
+
+.learnmore {
+  text-decoration: underline;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.showoriginal {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* ///////////////////////////// */
+
+.placedescriptioncontainer {
+  margin: 5% 0%;
+}
+
+.placedescriptioncontainer > * {
+  margin: 1.5% 0%;
+}
+
+.placedescription {
+  font-size: 16px;
+}
+.showmorecontainer {
+  display: flex;
+}
+
+.chevron {
+  margin-left: 5px;
+}
+
+/* .placedescriptioncontainer {
+} */
+
+.translatecontainer {
+  display: flex;
+}
+
+.translateimage {
+  width: 22px;
+  height: 22px;
+  margin-right: 5px;
+}
+
+.showmoretext {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* ////////////////////// WHERE TO SLEEP ///////////////////*/
+
+/* .wheretosleepcontainer {
+  padding-bottom: 5%;
+} */
+
+.wheretosleep {
+  border: 1px solid #717171;
+  width: 30%;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 6%;
+}
+
+.wheretosleeptitle {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 6%;
+  margin-bottom: 4%;
+}
+
+.wheretosleepcard > * {
+  margin: 4% 0;
+}
+
+.wheretosleepbedroom {
+  font-weight: bold;
+}
+
+.wheretosleepimage {
+  width: 30px;
+  height: 30px;
+}
+
+.wheretosleepdescription {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+/* https://github.com/18jad/airbnb-clone */
+
+/* //////////////// OFFERS /////////////////// */
+
+/* .offers {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+} */
+
+.offers {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+.offer {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.offer > * {
+  margin: 2% 0%;
+}
+
+.offericoncontainer {
+  width: 40px;
+}
+.offericon {
+  width: 30px;
+}
+
+.offertitle {
+  text-decoration: none;
+}
+
+.offertitlelinethrough {
+  text-decoration: line-through;
+}
+
+.amenitiescontainer {
+  border: 1px solid black;
+  cursor: pointer;
+
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 200px;
+  margin: 2% 0%;
+}
+
+.amenities {
+  font-weight: bold;
+  padding: 6% 6%;
+}
+
+.amenitiescontainer:hover {
+  background-color: #f7f7f7;
+}

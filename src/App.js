@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import PageLayout from "./components/PageLayout/PageLayout";
+
+import HomePage from "./pages/HomePage";
+import Details from "./pages/Details";
+
+import Footer from "./components/HomePage/Footer/Footer";
+
+import { Route, Routes, Navigate, useLocation } from "react-router-dom";
 
 function App() {
+  const location = useLocation();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <PageLayout>
+      <Routes>
+        <Route path="/" element={<Navigate replace to="/homepage" />} />
+
+        <Route path="/homepage" element={<HomePage />} />
+        <Route path="/details/:detailsId" element={<Details />} />
+      </Routes>
+      {location.pathname === "/homepage" && <Footer />}
+    </PageLayout>
   );
 }
 
