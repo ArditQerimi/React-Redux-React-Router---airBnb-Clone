@@ -1,43 +1,90 @@
+:root {
+  --space: 2rem;
+  --space-xs: calc(var(--space) / 3);
+  --space-sm: calc(var(--space) / 2);
+  --space-md: calc(var(--space) * 2);
+
+  --color-primary: lightgray;
+  --color-accent: whitesmoke;
+  --color-dark: black;
+  --color-mid: gray;
+  --color-light: white;
+  --color-highlight: dodgerblue;
+
+  --radius: 0.125rem;
+}
+
 .container {
-  margin: 4% 0%;
   display: flex;
+  margin-top: 2.5rem;
+  padding: 0% 4.6%;
+  position: relative;
 }
 
-.containers {
-  display: flex;
-  width: 60%;
-  /* justify-content: space-between; */
-  border-bottom: 1px solid #dddddd;
+.leftcontainer {
+  width: 57%;
 }
 
-.hostdescription {
+.rightcontainer {
+  width: 43%;
+  /* position: fixed; */
+  /* bottom: 40px; */
+  right: -10px;
+  /* overflow: scroll; */
+  --offset: var(--space);
+  /* flex-grow: 1;
+  flex-basis: 600px; */
+  align-self: start;
+  position: sticky;
+  top: var(--offset);
+  /* right: var(--offset); */
+  /* height: 300px; */
+}
+
+/* .rightcontainer .component {
+  max-height: calc(10vh - var(--offset) * 4);
+} */
+/* 
+#nav {
+  border: 1px red dashed;
+  background: #00ffff;
+  text-align: center;
+  padding: 41px 0;
+
+  margin: 0 auto;
+  z-index: 10;
+  width: 100%;
+  left: 0;
+  right: 0;
+} */
+
+.mapcontainer {
+  /* width: 1250px;
+  height: 400px; */
+  overflow: hidden;
+  /* padding-right: 60px;
+  padding-left: 50px; */
+  margin: 0% 5%;
+  /* padding: 0% 6%; */
+}
+
+.hostcontainer {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  /* width: 57%; */
-  /* width: 100%; */
+  align-items: center;
 }
 
-.hostedbycontainer {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  /* width: 80%; */
-}
-.hostedbycontainer > * {
-  margin: 10px 2px;
-}
 .hostedbytitle {
   font-size: 21px;
   font-weight: 600;
 }
 
-.rooms {
+.hostdescription {
   display: flex;
 }
 
-.rooms > * {
-  margin: 0px 2px;
+.hostdescription > * {
+  margin: 8px 2px;
   font-size: 16.5px;
 }
 
@@ -45,4 +92,612 @@
   width: 55px;
   height: 55px;
   border-radius: 50%;
+}
+
+.divider {
+  height: 1px;
+  background-color: #dddddd;
+  margin: 3% 0%;
+}
+
+.descriptioncontainer {
+  display: flex;
+  align-items: center;
+}
+
+.descriptioncontainer > * {
+  margin: 1% 1.5%;
+}
+
+.descriptiontitle {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+
+.descriptionIcon {
+  width: 35px;
+  height: 35px;
+}
+
+.titleofdescription {
+  font-weight: 600;
+}
+
+.titleanddescription > * {
+  margin: 2.5% 0%;
+}
+
+.description {
+  font-weight: 400;
+  color: #717171;
+  font-size: 14px;
+}
+
+/* ///////////////////// AIR COVER //////////////////////// */
+
+/* .aircovercontainer {
+  margin: 5% 0%;
+  padding: 5% 0%;
+} */
+
+/* .aircovercontainer > * {
+  margin: 3% 0;
+} */
+
+.aircoverimage {
+  width: 130px;
+  height: 55px;
+  object-fit: contain;
+}
+
+/* .aircover {
+  margin-bottom: 5%;
+} */
+
+.aircover > * {
+  margin: 1.5% 0;
+}
+
+.learnmore {
+  text-decoration: underline;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.showoriginal {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* ///////////////////////////// */
+
+.placedescriptioncontainer {
+  margin: 5% 0%;
+}
+
+.placedescriptioncontainer > * {
+  margin: 1.5% 0%;
+}
+
+.placedescription {
+  font-size: 16px;
+}
+.showmorecontainer {
+  display: flex;
+}
+
+.chevron {
+  margin-left: 5px;
+}
+
+/* .placedescriptioncontainer {
+} */
+
+.translatecontainer {
+  display: flex;
+}
+
+.translateimage {
+  width: 22px;
+  height: 22px;
+  margin-right: 5px;
+}
+
+.showmoretext {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* ////////////////////// WHERE TO SLEEP ///////////////////*/
+
+/* .wheretosleepcontainer {
+  padding-bottom: 5%;
+} */
+
+.wheretosleep {
+  border: 1px solid #717171;
+  width: 30%;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 6%;
+}
+
+.wheretosleeptitle {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 6%;
+  margin-bottom: 4%;
+}
+
+.wheretosleepcard > * {
+  margin: 4% 0;
+}
+
+.wheretosleepbedroom {
+  font-weight: bold;
+}
+
+.wheretosleepimage {
+  width: 30px;
+  height: 30px;
+}
+
+.wheretosleepdescription {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+/* https://github.com/18jad/airbnb-clone */
+
+/* //////////////// OFFERS /////////////////// */
+
+/* .offers {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+} */
+
+.offers {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+.offer {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.offer > * {
+  margin: 2% 0%;
+}
+
+.offericoncontainer {
+  width: 40px;
+}
+.offericon {
+  width: 30px;
+}
+
+.offertitle {
+  text-decoration: none;
+}
+
+.offertitlelinethrough {
+  text-decoration: line-through;
+}
+
+.amenitiescontainer {
+  border: 1px solid black;
+  cursor: pointer;
+
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 200px;
+  margin: 2% 0%;
+}
+
+.amenities {
+  font-weight: bold;
+  padding: 6% 6%;
+}
+
+.amenitiescontainer:hover {
+  background-color: #f7f7f7;
+}
+/* ///////////////// MAP ////////////////////////// */
+
+.marker-icon {
+  width: 50px;
+  height: 50px;
+}
+
+/* /////////////// FOOTER ////////////////// */
+
+.footercontainer {
+  display: grid;
+  /* justify-content: center; */
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  /* place-items: center; */
+  background-color: #f7f7f7;
+  padding: 2% 5%;
+}
+
+.footersectiontitle {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.footersection p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.airbnbfootercontainer {
+  border-top: 1px solid #dddddd;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.2s ease;
+  padding: 1% 4.5%;
+  /* position: fixed; */
+  bottom: 0;
+  background-color: #fff;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f7f7f7;
+}
+
+.copyright {
+  font-size: 14px;
+}
+
+.footertext {
+  color: "#222222";
+  font-size: 14px;
+  overflow-wrap: break-word;
+}
+.languague,
+.support {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.languague > *,
+.support > * {
+  margin: 0 5px;
+}
+
+.rightbuttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rightbuttons > * {
+  margin: 0px 15px;
+}
+
+.globeicon {
+  width: 20px;
+  height: 20px;
+  /* color: #fff; */
+  font-weight: bold;
+  border-radius: 50%;
+}
+
+/* .footer {
+  display: grid;
+ grid-template-columns: 2fr 2fr 2fr 2fr; 
+  justify-content: center;
+  align-content: center;
+  column-gap: 1.8rem;
+  row-gap: 2rem;
+} */
+
+/* ////////////////////// ASIDE ///////////////// */
+
+.rightcontainer {
+  margin: 0 9%;
+  /* border: 1px solid black; */
+  /* padding: 20px; */
+  /* border-radius: 10px; */
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 16px;
+  width: 380px;
+  height: 480px;
+  justify-items: center;
+  /* position: ; */
+}
+
+.rightcontainerheader {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.placerating {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .datepicker {
+  width: 300px;
+} */
+
+.datepicker {
+  /* border-radius: 15px; */
+  border: 1px #0c8af8 solid;
+  padding: 4px 12px;
+  background-color: white;
+  height: 22px;
+  box-shadow: 0 0 2px #0074d9;
+  width: 350px;
+  align-items: center;
+  display: flex;
+  text-align: center;
+}
+
+.calendarcontainer {
+  position: relative;
+}
+
+.opencalendar {
+  position: absolute;
+  right: 2px;
+}
+
+.checkcontainer {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  /* border: 1px solid #717171; */
+}
+
+.check {
+  /* border: 1px solid #717171; */
+  width: 183px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.check > * {
+  padding: 2px 4px;
+}
+
+.checkcontainer > :nth-child(1) {
+  /* border-right: 0px solid #717171; */
+  border-left: 1px solid #717171;
+  border-top: 1px solid #717171;
+  border-bottom: 1px solid #717171;
+  border-top-left-radius: 10px;
+}
+
+.checkcontainer > :nth-child(2) {
+  border-top-right-radius: 10px;
+  border: 1px solid #717171;
+}
+.checktext {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.guestscontainer {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-left: 1px solid #717171;
+  border-right: 1px solid #717171;
+  border-bottom: 1px solid #717171;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.guestscontainer > * {
+  padding: 10px 15px;
+}
+
+.gueststext {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.buttonreserve {
+  background: linear-gradient(
+    to right,
+    #e61e4d 0%,
+    #e31c5f 50%,
+    #d70466 100%
+  ) !important;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* margin-left: 10px; */
+  border-radius: 10px;
+}
+
+.buttonreservetext {
+  padding: 13px 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.pricepernight {
+  display: flex;
+  align-items: baseline;
+}
+
+.pricepernight > * {
+  padding-right: 5px;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.rightcontainerheader {
+  margin-bottom: 10px;
+}
+
+.reviews {
+  font-size: 15px;
+  color: #717171;
+  font-weight: bold;
+  text-decoration: underline;
+  /* text-align: center; */
+}
+
+.placerating {
+  /* align-items: baseline; */
+  display: flex;
+  align-items: center;
+}
+
+.placerating > * {
+  padding-left: 5px;
+}
+
+.rating {
+  font-weight: bold;
+}
+
+.dummytext {
+  color: rgb(34, 34, 34) !important;
+  margin: 15px 0px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.calculations {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 10px; */
+}
+
+.calculations > * {
+  margin-right: 5px;
+  padding-top: 10px;
+}
+
+.calcright {
+  display: flex;
+  justify-content: space-between;
+  /* text-decoration: underline; */
+  border-bottom: 1px solid #000;
+}
+
+.allnights {
+  display: flex;
+}
+
+.allnights > * {
+  margin-left: 5px;
+}
+
+.servicefee {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.calculationscontainer {
+  margin: 15px 0px;
+}
+
+.calculationscontainer > * {
+  margin: 10px 0px;
+}
+
+.pricepernight {
+  margin-right: 5px;
+}
+
+.calcleft {
+  display: flex;
+  /* width: 30px; */
+  align-items: flex-end;
+  text-align: end;
+}
+
+.calcleft1 {
+  margin-right: 5px;
+}
+
+.total {
+  /* border-top: 1px solid #717171; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.divider1 {
+  height: 1px;
+  background-color: #dddddd;
+  margin: 7% 0%;
+}
+
+.totaltaxes {
+  font-weight: bold;
+}
+
+.totalprice {
+  font-weight: bold;
+}
+
+/* ///////////////////////////////////////////////// */
+
+/*Calender*/
+
+.customCalendar {
+  margin-top: 10%;
+}
+
+.cleardatescontainer {
+  display: flex;
+  height: 35px;
+
+  /* padding: 2% 0%; */
+}
+
+.cleardates {
+  text-decoration: underline;
+  text-align: end;
+  padding: 10px;
+  right: 550px;
+  position: absolute;
+}
+
+.cleardates1 {
+  text-decoration: underline;
+  text-align: end;
+  padding: 10px;
+}
+
+.reportListing {
+  display: flex;
+  position: absolute;
+  right: 165px;
+  align-items: center;
+}
+.flag {
+  object-fit: contain;
+  width: 20px;
+  height: 20px;
+}
+
+.wheretobe {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
 }

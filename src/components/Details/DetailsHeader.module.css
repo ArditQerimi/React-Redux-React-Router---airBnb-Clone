@@ -1,3 +1,7 @@
+.container {
+  padding: 2% 4.6%;
+}
+
 .titlecontainer {
   display: flex;
   justify-content: flex-start;

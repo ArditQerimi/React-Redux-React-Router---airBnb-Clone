@@ -3,6 +3,8 @@
   align-items: center;
   /* justify-content: center; */
   margin: 1.5% 0%;
+
+  padding: 2% 4.6%;
 }
 
 .container > * {

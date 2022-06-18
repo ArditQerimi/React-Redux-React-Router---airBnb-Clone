@@ -5,7 +5,7 @@ import DetailsHeader from "../components/Details/DetailsHeader";
 import ImageGallery from "../components/Details/ImageGallery";
 import { useParams } from "react-router-dom";
 import Description from "../components/Details/Description";
-import Description1 from "../components/Details/Description1";
+// import Description1 from "../components/Details/Description1";
 
 const Details = () => {
   const params = useParams();
@@ -20,7 +20,7 @@ const Details = () => {
       <DetailsHeader details={details} />
       <ImageGallery details={details} />
       {/* <Description details={details} /> */}
-      <Description1 details={details} />
+      <Description details={details} />
     </div>
   );
 };

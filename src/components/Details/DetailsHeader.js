@@ -3,7 +3,7 @@ import classes from "./DetailsHeader.module.css";
 
 const DetailsHeader = ({ details }) => {
   return (
-    <>
+    <div className={classes.container}>
       {details.map((detail, index) => (
         <div key={index}>
           <div className={classes.titlecontainer}>
@@ -58,7 +58,7 @@ const DetailsHeader = ({ details }) => {
           </div>
         </div>
       ))}
-    </>
+    </div>
   );
 };
 

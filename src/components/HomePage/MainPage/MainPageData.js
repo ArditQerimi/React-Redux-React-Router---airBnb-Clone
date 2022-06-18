@@ -148,141 +148,141 @@ export const cardsData = [
     beds: 1,
     baths: 1,
   },
-  {
-    id: 2,
-    images: [
-      {
-        id: 1,
-        image:
-          "https://a0.muscache.com/im/pictures/d89a974e-73db-4ba6-b2f4-8e1876534731.jpg?im_w=720",
-      },
-      {
-        id: 2,
-        image:
-          "https://a0.muscache.com/im/pictures/4dd0aa84-b8e0-49cf-bbde-ee08df7ae452.jpg?im_w=720",
-      },
-      {
-        id: 3,
-        image:
-          "https://a0.muscache.com/im/pictures/ad429202-910a-400b-9538-4bf3af96378c.jpg?im_w=720",
-      },
-      {
-        id: 4,
-        image:
-          "https://a0.muscache.com/im/pictures/d953d715-89ca-4c10-93c5-1f8e2625a5cb.jpg?im_w=720",
-      },
-      {
-        id: 5,
-        image:
-          "https://a0.muscache.com/im/pictures/0a3c1bc6-b7bb-4b97-b44e-b8532f5afcec.jpg?im_w=720",
-      },
-    ],
-    carousel: [
-      {
-        id: 1,
-        image:
-          "https://a0.muscache.com/im/pictures/d89a974e-73db-4ba6-b2f4-8e1876534731.jpg?im_w=720",
-      },
-      {
-        id: 2,
-        image:
-          "https://a0.muscache.com/im/pictures/4dd0aa84-b8e0-49cf-bbde-ee08df7ae452.jpg?im_w=720",
-      },
-      {
-        id: 3,
-        image:
-          "https://a0.muscache.com/im/pictures/ad429202-910a-400b-9538-4bf3af96378c.jpg?im_w=720",
-      },
-      {
-        id: 4,
-        image:
-          "https://a0.muscache.com/im/pictures/d953d715-89ca-4c10-93c5-1f8e2625a5cb.jpg?im_w=720",
-      },
-      {
-        id: 5,
-        image:
-          "https://a0.muscache.com/im/pictures/0a3c1bc6-b7bb-4b97-b44e-b8532f5afcec.jpg?im_w=720",
-      },
-    ],
-    title: "Swim Under a Private Waterfall at a Tranquil Forest Haven",
-    hostedbytitle: "Entire home hosted by Marko",
-    titleIcon: require("../../../assets/icons/titleicon.png"),
-    rating: 4.9,
-    reviews: 220,
-    city: "Paraty, Rio de Janeiro, Brazil",
-    hostedby: `https://a0.muscache.com/im/pictures/user/7efcfb1f-beeb-45c7-8194-99bf0b249c69.jpg?im_w=240`,
-    description: `Designed by Atelier Marko Brajovic`,
-    description1Icon: require("../../../assets/icons/designedin.png"),
-    description1Title: `Designed by`,
-    description1: `Atelier Marko Brajovic`,
-    description2Icon: require("../../../assets/icons/featuredin.png"),
-    description2Title: `Featured in`,
-    description2: `ArchDaily, January 2022
-    Dwell, March 2021`,
-    description3Icon: require("../../../assets/icons/freecancel.png"),
-    description3Title: `Free cancellation before Jul 2.`,
-    description3: ``,
-    // aircoverlogo: `https://a0.muscache.com/im/pictures/54e427bb-9cb7-4a81-94cf-78f19156faad.jpg`,
-    // aircoverdescription: `Every booking includes free protection from Host cancellations, listing inaccuracies, and other issues like trouble checking in.`,
-    placeOffers: [
-      {
-        id: 1,
-        title: `Wifi`,
-        icon: require("../../../assets/icons/wifi.png"),
-      },
-      {
-        id: 2,
-        title: `Free parking on premises`,
-        icon: require("../../../assets/icons/parking.png"),
-      },
-      {
-        id: 3,
-        title: `Private bot tub`,
-        icon: require("../../../assets/icons/privatebathtub.png"),
-      },
-      {
-        id: 4,
-        title: `Air conditioning`,
-        icon: require("../../../assets/icons/aircondition.png"),
-      },
-      {
-        id: 5,
-        title: `Bathtub`,
-        icon: require("../../../assets/icons/bathtub.png"),
-      },
-      {
-        id: 6,
-        title: `Private patio or balcony`,
-        icon: require("../../../assets/icons/balcony.png"),
-      },
-      {
-        id: 7,
-        title: `Private backyard – Fully fenced`,
-        icon: require("../../../assets/icons/backyard.png"),
-      },
-      {
-        id: 8,
-        title: `Security cameras on property`,
-        icon: require("../../../assets/icons/securitycamera.png"),
-      },
-      {
-        id: 9,
-        title: `Carbon monoxide alarm`,
-        icon: require("../../../assets/icons/nocoalarm.png"),
-      },
-      {
-        id: 10,
-        title: `Smoke alarm`,
-        icon: require("../../../assets/icons/nosmokealarm.png"),
-      },
-    ],
-    date: "Jun 7-13",
-    price: "$367",
-    numOfGuests: 6,
-    bedrooms: 2,
-    beds: 2,
-    baths: 1,
-  },
+  // {
+  //   id: 2,
+  //   images: [
+  //     {
+  //       id: 1,
+  //       image:
+  //         "https://a0.muscache.com/im/pictures/d89a974e-73db-4ba6-b2f4-8e1876534731.jpg?im_w=720",
+  //     },
+  //     {
+  //       id: 2,
+  //       image:
+  //         "https://a0.muscache.com/im/pictures/4dd0aa84-b8e0-49cf-bbde-ee08df7ae452.jpg?im_w=720",
+  //     },
+  //     {
+  //       id: 3,
+  //       image:
+  //         "https://a0.muscache.com/im/pictures/ad429202-910a-400b-9538-4bf3af96378c.jpg?im_w=720",
+  //     },
+  //     {
+  //       id: 4,
+  //       image:
+  //         "https://a0.muscache.com/im/pictures/d953d715-89ca-4c10-93c5-1f8e2625a5cb.jpg?im_w=720",
+  //     },
+  //     {
+  //       id: 5,
+  //       image:
+  //         "https://a0.muscache.com/im/pictures/0a3c1bc6-b7bb-4b97-b44e-b8532f5afcec.jpg?im_w=720",
+  //     },
+  //   ],
+  //   carousel: [
+  //     {
+  //       id: 1,
+  //       image:
+  //         "https://a0.muscache.com/im/pictures/d89a974e-73db-4ba6-b2f4-8e1876534731.jpg?im_w=720",
+  //     },
+  //     {
+  //       id: 2,
+  //       image:
+  //         "https://a0.muscache.com/im/pictures/4dd0aa84-b8e0-49cf-bbde-ee08df7ae452.jpg?im_w=720",
+  //     },
+  //     {
+  //       id: 3,
+  //       image:
+  //         "https://a0.muscache.com/im/pictures/ad429202-910a-400b-9538-4bf3af96378c.jpg?im_w=720",
+  //     },
+  //     {
+  //       id: 4,
+  //       image:
+  //         "https://a0.muscache.com/im/pictures/d953d715-89ca-4c10-93c5-1f8e2625a5cb.jpg?im_w=720",
+  //     },
+  //     {
+  //       id: 5,
+  //       image:
+  //         "https://a0.muscache.com/im/pictures/0a3c1bc6-b7bb-4b97-b44e-b8532f5afcec.jpg?im_w=720",
+  //     },
+  //   ],
+  //   title: "Swim Under a Private Waterfall at a Tranquil Forest Haven",
+  //   hostedbytitle: "Entire home hosted by Marko",
+  //   titleIcon: require("../../../assets/icons/titleicon.png"),
+  //   rating: 4.9,
+  //   reviews: 220,
+  //   city: "Paraty, Rio de Janeiro, Brazil",
+  //   hostedby: `https://a0.muscache.com/im/pictures/user/7efcfb1f-beeb-45c7-8194-99bf0b249c69.jpg?im_w=240`,
+  //   description: `Designed by Atelier Marko Brajovic`,
+  //   description1Icon: require("../../../assets/icons/designedin.png"),
+  //   description1Title: `Designed by`,
+  //   description1: `Atelier Marko Brajovic`,
+  //   description2Icon: require("../../../assets/icons/featuredin.png"),
+  //   description2Title: `Featured in`,
+  //   description2: `ArchDaily, January 2022
+  //   Dwell, March 2021`,
+  //   description3Icon: require("../../../assets/icons/freecancel.png"),
+  //   description3Title: `Free cancellation before Jul 2.`,
+  //   description3: ``,
+  //   // aircoverlogo: `https://a0.muscache.com/im/pictures/54e427bb-9cb7-4a81-94cf-78f19156faad.jpg`,
+  //   // aircoverdescription: `Every booking includes free protection from Host cancellations, listing inaccuracies, and other issues like trouble checking in.`,
+  //   placeOffers: [
+  //     {
+  //       id: 1,
+  //       title: `Wifi`,
+  //       icon: require("../../../assets/icons/wifi.png"),
+  //     },
+  //     {
+  //       id: 2,
+  //       title: `Free parking on premises`,
+  //       icon: require("../../../assets/icons/parking.png"),
+  //     },
+  //     {
+  //       id: 3,
+  //       title: `Private bot tub`,
+  //       icon: require("../../../assets/icons/privatebathtub.png"),
+  //     },
+  //     {
+  //       id: 4,
+  //       title: `Air conditioning`,
+  //       icon: require("../../../assets/icons/aircondition.png"),
+  //     },
+  //     {
+  //       id: 5,
+  //       title: `Bathtub`,
+  //       icon: require("../../../assets/icons/bathtub.png"),
+  //     },
+  //     {
+  //       id: 6,
+  //       title: `Private patio or balcony`,
+  //       icon: require("../../../assets/icons/balcony.png"),
+  //     },
+  //     {
+  //       id: 7,
+  //       title: `Private backyard – Fully fenced`,
+  //       icon: require("../../../assets/icons/backyard.png"),
+  //     },
+  //     {
+  //       id: 8,
+  //       title: `Security cameras on property`,
+  //       icon: require("../../../assets/icons/securitycamera.png"),
+  //     },
+  //     {
+  //       id: 9,
+  //       title: `Carbon monoxide alarm`,
+  //       icon: require("../../../assets/icons/nocoalarm.png"),
+  //     },
+  //     {
+  //       id: 10,
+  //       title: `Smoke alarm`,
+  //       icon: require("../../../assets/icons/nosmokealarm.png"),
+  //     },
+  //   ],
+  //   date: "Jun 7-13",
+  //   price: "$367",
+  //   numOfGuests: 6,
+  //   bedrooms: 2,
+  //   beds: 2,
+  //   baths: 1,
+  // },
   // {
   //   id: 3,
   //   images: [
